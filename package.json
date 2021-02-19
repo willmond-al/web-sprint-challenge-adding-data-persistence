@@ -8,9 +8,8 @@
     "server": "nodemon index.js",
     "mup": "npx knex migrate:up",
     "mdown": "npx knex migrate:down",
-    "matest": "npx knex migrate:latest",
+    "mlatest": "npx knex migrate:latest",
     "mroll": "npx knex migrate:rollback"
-
   },
   "repository": {
     "type": "git",

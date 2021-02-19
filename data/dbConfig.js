@@ -1,5 +1,5 @@
 // No need to change this file
-const knex = require('knex');
+const knex = require('knex')
 const configurations = require('../knexfile.js');
 const environment = process.env.NODE_ENV || 'development';
 
